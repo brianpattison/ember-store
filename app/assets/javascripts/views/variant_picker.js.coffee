@@ -18,4 +18,4 @@ EmberStore.VariantPicker = Ember.TextField.extend
         variant.name
 
   change: (e) ->
-    this.sendAction('showStockDetails', this.get('variant'))
+    this.sendAction('action', this.get('variant'))
